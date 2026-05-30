@@ -601,8 +601,8 @@ button:hover {
   width: 100%;
   max-width: 1200px;
   margin: 0 auto 60px;
-  padding: 0 28px;             
-  overflow: hidden;
+  padding: 0 30px;             
+  overflow: visible;
 }
 
 .shop-grid {
@@ -610,7 +610,7 @@ button:hover {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
-  gap: 126px;                
+  gap: 125px;                
   width: 100%;
 }
 
@@ -638,8 +638,8 @@ button:hover {
   flex-grow: 1;
   border: 3px solid #b59f5b;
   margin-top: -45px;            
-  margin-left: -28px;           
-  margin-right: -28px;         
+  margin-left: -27px;           
+  margin-right: -27px;         
   padding: 25px 20px 20px;      
   background-color: transparent;
   display: grid;
@@ -1054,7 +1054,7 @@ font-size 14px вместо 12px */
 
   .shop-card {
     flex: none;
-    width: calc(50% - 63px);  
+    width: calc(50% - 62.5px);  
   }
 
   .shop-card-content {
