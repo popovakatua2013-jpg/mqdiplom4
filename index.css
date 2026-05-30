@@ -603,7 +603,7 @@ button:hover {
   margin-left: 10px;
 }
 
-/* ========== SHOP (Вариант B — space-between) ========== */
+/* SHOP */
 
 .shop {
   width: 100%;
@@ -1056,18 +1056,18 @@ button:hover {
 
   .shop-grid {
     flex-wrap: wrap;
-    gap: 126px;                 /* ИЗМЕНИТЬ: было 40px → 126px */
+    gap: 126px;                 
   }
 
   .shop-card {
     flex: none;
-    width: calc(50% - 63px);   /* ИЗМЕНИТЬ: было calc(50% - 20px) → calc(50% - 63px) */
+    width: calc(50% - 63px);   
   }
 
   .shop-card-content {
-    margin-left: -28px;         /* ИЗМЕНИТЬ: было -15px → -28px */
-    margin-right: -28px;        /* ИЗМЕНИТЬ: было -15px → -28px */
-    padding: 15px 20px;         /* ДОБАВИТЬ: уменьшить padding для планшета */
+    margin-left: -28px;         
+    margin-right: -28px;        
+    padding: 15px 20px;         
   }
 
   .social-section {
@@ -1209,14 +1209,14 @@ button:hover {
     margin-left: -15px;
     margin-right: -15px;
     margin-top: -45px;
-    padding: 15px 15px;         /* ИЗМЕНИТЬ: было 20px 15px → 15px 15px */
+    padding: 15px 15px;         
     background-color: transparent;
     position: relative;
     z-index: 2;
   }
 
   .shop-card-desc {
-    margin-bottom: 14px;        /* ДОБАВИТЬ: уменьшить отступ до цен */
+    margin-bottom: 14px;       
   }
 
   .social-section {
